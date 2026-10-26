@@ -21,7 +21,7 @@ services:
         restart: always
 
     mongodb:
-        image: bitnami/mongodb:latest
+        image: soldevelo/mongodb:latest
         container_name: mongodb-01
         ports:
             - "27017:27017"
